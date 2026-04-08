@@ -1,7 +1,7 @@
 +++
 title = "Stephen Gray"
 +++
-
+<img src="/images/profile.jpg" alt="Stephen Gray" class="profile-photo">
 ## Most breaches aren’t sophisticated.
 
 They’re the result of issues no one took seriously until it was too late.
