@@ -1,8 +1,10 @@
 +++
 title = "Stephen Gray"
 +++
+
 <img src="/images/profile.jpg" alt="Stephen Gray" class="profile-photo">
-## Most breaches aren’t sophisticated.
+
+### Most breaches aren’t sophisticated.
 
 They’re the result of issues no one took seriously until it was too late.
 
@@ -10,9 +12,9 @@ They’re the result of issues no one took seriously until it was too late.
 
 ## The Reality
 
-The average cost of a data breach is in the millions.
+The average cost of a data breach is ~$4.45 million.
 
-Even when it doesn’t, the damage is real:
+Even when it isn’t catastrophic, the damage is real:
 - downtime  
 - lost customers  
 - emergency remediation  
@@ -98,4 +100,4 @@ You’ll leave with:
 
 ## Contact
 
-<span class="email">stephen@stephengray.net</span>
+<a href="mailto:stephen@stephengray.net">stephen@stephengray.net</a>
