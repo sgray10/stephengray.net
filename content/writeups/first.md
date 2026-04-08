@@ -9,7 +9,7 @@ This is how I approach testing a web application for real vulnerabilities.
 
 ## Step 1 — Recon
 
-- identify endpoints
+- I identify endpoints
 - map functionality
 - understand assumptions
 
