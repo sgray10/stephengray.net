@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Stephen Gray</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root {
+      --bg: #0f1115;
+      --text: #e6e6e6;
+      --muted: #9aa0a6;
+      --accent: #4da3ff;
+      --border: #2a2f36;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.65;
+    }
+
+    /* NAV */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2.5em;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.8em;
+    }
+
+    .nav a {
+      color: var(--text);
+      text-decoration: none;
+      margin-left: 1em;
+      font-size: 0.95rem;
+    }
+
+    .nav a:hover {
+      color: var(--accent);
+    }
+
+    .nav .left {
+      font-weight: 600;
+    }
+
+    /* HERO */
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 2.5em;
+    }
+
+    .hero img {
+      width: 90px;
+      height: 90px;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    .hero-text {
+      flex: 1;
+    }
+
+    .hero-text h1 {
+      font-size: 1.6rem;
+      margin: 0;
+      line-height: 1.3;
+    }
+
+    .subtle {
+      color: var(--muted);
+      margin-top: 0.3em;
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      margin-top: 2.5em;
+      font-size: 1.3rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3em;
+    }
+
+    p {
+      margin: 1em 0;
+    }
+
+    ul {
+      margin: 1em 0;
+      padding-left: 1.2em;
+    }
+
+    li {
+      margin: 0.4em 0;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2em 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .email {
+      font-size: 1.1rem;
+      color: var(--accent);
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <div class="nav">
+    <div class="left">Stephen Gray</div>
+    <div class="right">
+      <a href="/">Home</a>
+      <a href="/writeups/">Writeups</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <img src="/me.jpg" alt="Stephen Gray">
+    <div class="hero-text">
+      <h1>If someone targeted your system, how far would they get?</h1>
+      <div class="subtle">Offensive security. Former Accenture, Booz Allen, Cisco.</div>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <h2 id="most-breaches-aren-t-sophisticated">Most breaches aren’t sophisticated.</h2>
+<p>They’re the result of issues no one took seriously until it was too late.</p>
+<hr />
+<h2 id="the-reality">The Reality</h2>
+<p>The average cost of a data breach is in the millions.</p>
+<p>Even when it doesn’t, the damage is real:</p>
+<ul>
+<li>downtime</li>
+<li>lost customers</li>
+<li>emergency remediation</li>
+<li>legal exposure</li>
+</ul>
+<p>Most of it comes from problems that were already there—just undiscovered.</p>
+<p>Attackers don’t need zero-days.<br />
+They need one mistake.</p>
+<hr />
+<h2 id="what-i-do">What I Do</h2>
+<p>I simulate how a real attacker would approach your system.</p>
+<p>Then I follow it through until there’s impact.</p>
+<p>You get:</p>
+<ul>
+<li>the actual paths an attacker would take</li>
+<li>what they could achieve</li>
+<li>how to shut it down</li>
+</ul>
+<p>No noise. No compliance theater. No false positives.</p>
+<hr />
+<h2 id="what-i-focus-on">What I Focus On</h2>
+<p><strong>Web Apps &amp; APIs</strong></p>
+<ul>
+<li>broken authentication and authorization</li>
+<li>logic flaws</li>
+<li>injection and data exposure</li>
+</ul>
+<p><strong>Infrastructure</strong></p>
+<ul>
+<li>exposed services</li>
+<li>internal movement paths</li>
+<li>privilege escalation</li>
+</ul>
+<p><strong>Targeted Engagements</strong></p>
+<ul>
+<li>specific systems</li>
+<li>specific concerns</li>
+<li>fast, focused work</li>
+</ul>
+<hr />
+<h2 id="why-work-with-me">Why Work With Me</h2>
+<p>I’ve spent years breaking real systems across enterprise and government environments.</p>
+<p>I don’t stop at surface-level findings.<br />
+I keep going until something meaningful breaks.</p>
+<hr />
+<h2 id="typical-outcomes">Typical Outcomes</h2>
+<ul>
+<li>user-to-admin escalation</li>
+<li>cross-tenant data access</li>
+<li>internal system exposure</li>
+<li>full compromise from chained issues</li>
+</ul>
+<hr />
+<h2 id="how-engagements-work">How Engagements Work</h2>
+<ul>
+<li>small scope</li>
+<li>fast execution</li>
+<li>direct communication</li>
+</ul>
+<p>You’ll leave with:</p>
+<ul>
+<li>a clear understanding of your risk</li>
+<li>a prioritized fix list</li>
+<li>no ambiguity about what matters</li>
+</ul>
+<hr />
+<h2 id="writeups">Writeups</h2>
+<p><a href="/writeups/">View all writeups</a></p>
+<hr />
+<h2 id="contact">Contact</h2>
+<p><span class="email">stephen@stephengray.net</span></p>
+
+
+</body>
+</html>
